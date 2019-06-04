@@ -1,3 +1,9 @@
+calamares (3.2.9-0lliurex) bionic; urgency=medium
+
+  * Update calamares version
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 04 Jun 2019 14:54:55 +0200
+
 calamares (3.2.8-0xneon+18.04+bionic+build9) bionic; urgency=medium
 
   * Automatic CI Build
