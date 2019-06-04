@@ -1,0 +1,70 @@
+Source: calamares
+Section: utils
+Priority: optional
+Build-Depends: cmake,
+               cryptsetup,
+               debhelper (>= 11),
+               extra-cmake-modules,
+               gettext,
+               libatasmart-dev,
+               libboost-python-dev,
+               libkf5config-dev,
+               libkf5coreaddons-dev,
+               libkf5crash-dev,
+               libkf5i18n-dev,
+               libkf5iconthemes-dev,
+               libkf5kio-dev,
+               libkf5package-dev,
+               libkf5parts-dev,
+               libkf5plasma-dev,
+               libkf5service-dev,
+               libkf5solid-dev,
+               libkpmcore-dev,
+               libparted-dev,
+               libpolkit-qt5-1-dev,
+               libpwquality-dev,
+               libqt5svg5-dev,
+               libqt5webkit5-dev,
+               libyaml-cpp-dev,
+               os-prober,
+               pkg-config,
+               pkg-kde-tools,
+               policykit-1,
+               python3-dev,
+               qml-module-qtquick-layouts,
+               qml-module-qtquick-privatewidgets,
+               qml-module-qtquick-window2,
+               qml-module-qtquick2,
+               qtbase5-dev,
+               qtdeclarative5-dev,
+               qttools5-dev,
+               qttools5-dev-tools,
+               libpythonqt-qt5-python3-dev,
+               libpythonqt-qtall-qt5-python3-dev
+Standards-Version: 4.1.3
+Homepage: https://github.com/calamares/calamares
+Vcs-Git: https://anongit.neon.kde.org/extras/calamares
+Vcs-Browser: https://packaging.neon.kde.org/extras/calamares.git
+Maintainer: Neon CI <neon@kde.org>
+
+Package: calamares
+Architecture: any
+Depends: os-prober,
+         qml-module-qtquick-window2,
+         qml-module-qtquick2,
+         rsync,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: grub-efi-amd64-bin, grub-pc, konsole, squashfs-tools
+Description: distribution-independent installer framework
+ Calamares is a distribution-independent installer framework.
+ .
+ It provides a graphical installer that can be used with nearly
+ any distribution. This package is suitable for live media on
+ Debian-based systems, and won't be of any particular use on
+ and already installed system.
+ .
+ You will likely want to provide your own config files to match
+ your distribution, reading the Calamares documentation will guide
+ you through that process.
+

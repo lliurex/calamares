@@ -1,0 +1,128 @@
+calamares (3.2.8-0xneon+18.04+bionic+build9) bionic; urgency=medium
+
+  * Automatic CI Build
+
+ -- Neon CI <neon@kde.org>  Fri, 10 May 2019 23:39:57 +0000
+
+calamares (3.2.8-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 10 May 2019 23:39:04 +0000
+
+calamares (3.2.7-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 27 Apr 2019 23:39:06 +0000
+
+calamares (3.2.6-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 25 Apr 2019 23:39:04 +0000
+
+calamares (3.2.5-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 15 Apr 2019 23:42:41 +0000
+
+calamares (3.2.4-0neon) bionic; urgency=medium
+
+  [ Jonathan Carter ]
+  * Fix minor style issue in debian/patches/use-sudo-instead-of-pkexec
+
+  [ Neon CI ]
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 13 Feb 2019 16:34:10 +0000
+
+calamares (3.1.12-1) unstable; urgency=medium
+
+  * New upstream release
+  * Replace deprecated build-dep 'kio-dev' with 'libkf5kio-dev'
+    (Closes: #885386)
+  * Update standards version to 4.1.3
+  * Update compat to level 11
+  * Update copyright years
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 08 Feb 2018 10:18:28 +0200
+
+calamares (3.1.10-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update standards version to 4.1.2
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 11 Dec 2017 19:10:28 +0200
+
+calamares (3.1.9-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 30 Nov 2017 20:29:57 +0200
+
+calamares (3.1.8-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 20 Nov 2017 09:45:48 +0200
+
+calamares (3.1.7-2) unstable; urgency=medium
+
+  * Remove unneeded build dependency libpythonqt-dev (Closes: #880333)
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 13 Nov 2017 09:26:00 +0200
+
+calamares (3.1.7-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/copyright: update copyright years
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 28 Oct 2017 09:36:57 +0200
+
+calamares (3.1.6-4) unstable; urgency=medium
+
+  * Attempt to make package reproducible
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 23 Oct 2017 09:43:10 +0200
+
+calamares (3.1.6-3) unstable; urgency=medium
+
+  * Update dependencies
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 20 Oct 2017 09:09:20 +0200
+
+calamares (3.1.6-2) unstable; urgency=medium
+
+  * Package rebuild (no source changes)
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 19 Oct 2017 20:15:55 +0200
+
+calamares (3.1.6-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update standards version to 4.1.1 (no related changes)
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 17 Oct 2017 14:48:51 +0200
+
+calamares (3.1.5-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/copyright:
+     - Update copyright years for Christian Muehlhaeuser
+     - Add new copyright information for Schutz Sacha
+     - Add new copyright information for Gabriel Craciunescu
+     - Add copyright information for new files:
+       src/libcalamaresui/widgets/waitingspinnerwidget.*
+     - Update license information for files:
+       src/qml/calamares/slideshow/*qml
+  * Update architecture to linux-any
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 27 Sep 2017 08:46:01 +0200
+
+calamares (3.1.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #842671)
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 18 Jul 2017 14:38:15 +0200
